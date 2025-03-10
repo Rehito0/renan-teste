@@ -213,7 +213,7 @@
             styles:[`{
      paddingVertical: 10,
      paddingHorizontal: 30,
-     $var_all.colors.primary, 
+     backgroundColor: $var_all.colors.primary, 
 }`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
