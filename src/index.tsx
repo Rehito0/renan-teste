@@ -223,7 +223,7 @@
 
           arrStyles: [
             {
-     color: 'red'
+     color: 'blue'
 }
           ],
 
