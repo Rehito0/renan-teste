@@ -213,7 +213,7 @@
             styles:[{
      paddingVertical: 10,
      paddingHorizontal: 30,
-     backgroundColor: $var_all.colors.primary, 
+     backgroundColor: "red", 
 }],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
