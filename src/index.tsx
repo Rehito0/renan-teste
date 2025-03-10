@@ -203,7 +203,7 @@
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"lp",
 
-          styles:[`{ backgroundColor: #f5f5f5, flex: 1, width: "100%", heigh: "100%" }`],
+          styles:[`{ backgroundColor: "white", flex: 1, width: "100%", heigh: "100%" }`],
 
           screenElements:[() => {
                   const textStyle = {
