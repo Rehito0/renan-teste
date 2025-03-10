@@ -223,7 +223,10 @@
 
           arrStyles: [
             {
-     color: 'blue'
+     color: 'blue',
+     fontWeight: 500,
+     fontStyle: 'italic',
+     fontFamily: 'cursive',
 }
           ],
 
