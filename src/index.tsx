@@ -215,7 +215,8 @@
      color: 'red', 
      fontSize: 16, 
      fontWeight: 'bold', 
-     fontStyle: 'italic', 
+     fontStyle: 'italic',
+     fontFamily: 'cursive',
 }
           ],
 
