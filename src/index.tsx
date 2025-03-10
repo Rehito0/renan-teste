@@ -211,8 +211,8 @@
             elementsProperties:['{}'],
 
             styles:[{
-     paddingVertical: '10px',
-     paddingHorizontal: '30px',
+     paddingVertical: 10,
+     paddingHorizontal: 30,
      backgroundColor: $var_all.colors.primary, 
 }],
 
