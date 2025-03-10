@@ -205,28 +205,22 @@
 
           styles:[`{ backgroundColor: "white", flex: 1, width: "100%", heigh: "100%" }`],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+          screenElements:[
 
-          arrStyles: [
-            { 
-     color: '#454325', 
-     fontSize: 16, 
-     fontWeight: 'bold', 
-     fontStyle: 'italic',
-     fontFamily: 'cursive',
-}
-          ],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
 
-          children: [
-            `ERRO`
-          ],
+            styles:[`{
+     paddingVertical: 10,
+     paddingHorizontal: 30,
+     $var_all.colors.primary, 
+}`],
 
-          args,
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
-        }}/>],
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
