@@ -210,11 +210,11 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[`{
+            styles:[{
      paddingVertical: '10px',
      paddingHorizontal: '30px',
      backgroundColor: $var_all.colors.primary, 
-}`],
+}],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
 
