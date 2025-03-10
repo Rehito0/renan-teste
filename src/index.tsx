@@ -212,7 +212,7 @@
 
           arrStyles: [
             { 
-     color: #f5f5f5, 
+     color: '#f5f5f5', 
      fontSize: 16, 
      fontWeight: 'bold', 
      fontStyle: 'italic',
