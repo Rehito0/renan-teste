@@ -216,7 +216,24 @@
      backgroundColor: $var_all.colors.primary, 
 }],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            {
+     color: 'red'
+}
+          ],
+
+          children: [
+            `LOGO`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
