@@ -95,11 +95,11 @@
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
-          stylesArray: [{
-                color: 'black',
-                fontSize: 14,
-                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
-              }],
+          stylesArray: [`{
+     borderBottomColor: '#000',
+     borderBottomWidth: 1,
+     padding: '10',
+  }`],
 
           editPath: [" "],
 
