@@ -95,7 +95,7 @@
 
           stylesArray: [`{
      borderColor: '#000',
-     borderBottomWidth: 1,
+     borderWidth: 1,
      borderRadius: '10',
   }`],
 
