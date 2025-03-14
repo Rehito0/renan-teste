@@ -50,7 +50,7 @@
 
             styles:[`{
      height: '58',
-     width: '171',
+     width: '170',
      backgroundColor: '#0a1425',
 }`],
 
@@ -61,7 +61,7 @@
 
       styles:[{
      height: '58',
-     width: '171',
+     width: '170',
      backgroundColor: '#0a1425',
 }],
 
