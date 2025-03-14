@@ -87,6 +87,7 @@
      backgroundColor: '#f5f5f5',
      paddingVertical: '30',
      paddingHorizontal: '45',
+     flex: '1',
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
