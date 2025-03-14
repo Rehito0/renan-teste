@@ -41,7 +41,7 @@
             styles:[{
      paddingVertical: 15,
      paddingHorizontal: 30,
-     backgroundColor: "#0a1425",
+     backgroundColor: "#101828",
      justifyContent: 'center',
 }],
 
