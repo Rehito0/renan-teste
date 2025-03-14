@@ -40,7 +40,8 @@
             styles:[{
      paddingVertical: 10,
      paddingHorizontal: 30,
-     backgroundColor: "#0a1425", 
+     backgroundColor: "#0a1425",
+     alignItems: 'center',
 }],
 
             functions:[()=>{}],            childrenItems:[
