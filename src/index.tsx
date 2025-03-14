@@ -91,7 +91,9 @@
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
+          propsArray: [`{
+     placeholder="useless placeholder",
+}`],
 
           stylesArray: [`{
      height: 40,
