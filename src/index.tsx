@@ -98,7 +98,6 @@
           stylesArray: [`{
      borderBottomColor: '#000',
      borderBottomWidth: 1,
-     padding: '10',
   }`],
 
           editPath: [" "],
