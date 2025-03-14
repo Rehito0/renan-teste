@@ -94,8 +94,9 @@
           propsArray: [{}],
 
           stylesArray: [`{
-     borderBottomColor: '#000',
-     borderBottomWidth: 1,
+     borderColor: '#000',
+     borderBottoWidth: 1,
+     borderRadius: '10',
   }`],
 
           editPath: [" "],
