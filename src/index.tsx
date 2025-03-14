@@ -51,7 +51,7 @@
             styles:[`{
      height: '58',
      width: '171',
-     backgroundColor: 'transparent',
+     backgroundColor: '#0a1425',
 }`],
 
             functions:[()=>{}],            childrenItems:[
