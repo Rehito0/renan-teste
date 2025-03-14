@@ -28,6 +28,54 @@
         
 
         (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"lp",
+
+          styles:[`{ backgroundColor: "white", flex: 1, width: "100%", heigh: "100%" }`],
+
+          screenElements:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[{
+     paddingVertical: 10,
+     paddingHorizontal: 30,
+     backgroundColor: "#0a1425", 
+}],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            {
+     color: 'blue',
+     fontWeight: 500,
+     fontStyle: 'italic',
+     fontFamily: 'cursive',
+}
+          ],
+
+          children: [
+            `LOGO`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+        
+
+        (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc1",
 
           styles:[`{ backgroundColor: "red", alignItems: "center", justifyContent: "center", flex: 1 }`],
@@ -151,7 +199,6 @@
 
           args,
         }}/>, 
-        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
@@ -190,53 +237,6 @@
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        ],
-
-          functions:[()=>{}],
-
-          args,
-        }}/>, 
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"lp",
-
-          styles:[`{ backgroundColor: "white", flex: 1, width: "100%", heigh: "100%" }`],
-
-          screenElements:[
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[{
-     paddingVertical: 10,
-     paddingHorizontal: 30,
-     backgroundColor: "red", 
-}],
-
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            {
-     color: 'blue',
-     fontWeight: 500,
-     fontStyle: 'italic',
-     fontFamily: 'cursive',
-}
-          ],
-
-          children: [
-            `LOGO`
-          ],
-
-          args,
-
-        }}/>],
 
             args,
           }}/>
