@@ -49,8 +49,8 @@
             elementsProperties:['{}'],
 
             styles:[`{
-     height: '58',
-     width: '170',
+     height: '41',
+     width: '120',
      backgroundColor: '#0a1425',
 }`],
 
@@ -60,8 +60,8 @@
       elementsProperties:[{}],
 
       styles:[{
-     height: '58',
-     width: '170',
+     height: '41',
+     width: '120',
      backgroundColor: '#0a1425',
 }],
 
