@@ -83,14 +83,11 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+     backgroundColor: '#f5f5f5',
+     paddingVertical: '30',
+     paddingHorizontal: '45',
+}`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
