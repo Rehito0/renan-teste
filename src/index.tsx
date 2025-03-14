@@ -38,10 +38,10 @@
             elementsProperties:['{}'],
 
             styles:[{
-     paddingVertical: 10,
+     paddingVertical: 15,
      paddingHorizontal: 30,
      backgroundColor: "#0a1425",
-     alignItems: 'center',
+     justifyContent: 'center',
 }],
 
             functions:[()=>{}],            childrenItems:[
