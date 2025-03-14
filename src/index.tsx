@@ -92,7 +92,7 @@
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [`{
-     placeholder="useless placeholder",
+     placeholder: "useless placeholder",
 }`],
 
           stylesArray: [`{
